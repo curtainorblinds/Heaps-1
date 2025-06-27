@@ -8,8 +8,8 @@ public class MergeKSortedList {
     /**
      * if we have 2-3 total lists we could have done it with taking pointer for each list
      * and compare all pointers with each other and put the lowest value in result and increment
-     * pointer in that list and repeat. Since we can't directly manage k pointers here directly we
-     * can use a heap which essentially is working as keeping k pointers. remaining logi is same
+     * pointer in that list and repeat. Since we can't manage k pointers here directly we
+     * can use a heap which essentially is working as keeping k pointers. remaining logic is same
      *
      * TC: O(Nlogk) where N -> total nodes across all lists (k), logk taken by heap add and poll
      * SC: O(k) maximum k elements in heap at any time
